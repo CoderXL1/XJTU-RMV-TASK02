@@ -1,0 +1,2 @@
+# XJTU-RMV-TASK02
+OpenCV 配置+项目
