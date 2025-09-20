@@ -14,7 +14,7 @@ compile_commands.json
 *.workspace
 
 # IDE
-.vscode/ipch/
+.vscode/
 .idea/
 *.swp
 *.swo

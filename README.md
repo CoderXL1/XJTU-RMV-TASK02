@@ -12,3 +12,19 @@
 
 #### 完成思路
 现做预处理：高斯模糊 $\to$ 转为灰度图 $\to$ 二值化 $\to$ 先开再闭 $\to$ 通过 Canny 得到边缘 $\to$ 得到 contours $\to$ 对于每个 contours 进行 minAreaRect $\to$ 通过面积、长宽比、角度筛选出来装甲板
+
+
+---------
+#### 项目结构
+`src/main.cpp` 完成 『OpenCV 基础操作』
+
+`src/recognition.cpp` 完成 『实际应用』
+
+---------
+### main.cpp 运行截图
+[main.cpp 运行截图](./main.cpp.runtime.png)
+
+### recognition.cpp 运行截图
+[recognition.cpp 运行截图](./recognition.cpp.runtime.png)
+
+### 更多图片可见 `resources/`
