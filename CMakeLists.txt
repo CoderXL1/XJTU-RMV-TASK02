@@ -13,7 +13,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(OpenCV REQUIRED)
 
 # 2. 声明可执行文件
-add_executable(main main.cpp)
+add_executable(main src/recognition.cpp)
 
 # 3. 给“这个目标”加 include 路径 + 链接库 + 额外编译 flags
 target_link_libraries(main PRIVATE ${OpenCV_LIBS})
