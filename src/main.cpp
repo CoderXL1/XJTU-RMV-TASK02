@@ -113,23 +113,23 @@ void transform()
 void saveImg()
 {
     //save all Mat images to corresponding files, format: test_image.[name].jpg
-    imwrite("../resources/test_image.gray.jpg", grayImg);
-    imwrite("../resources/test_image.hsv.jpg", hsvImg);
-    imwrite("../resources/test_image.blur.jpg", blurImg);
-    imwrite("../resources/test_image.gaussian.jpg", guassianImg);
-    imwrite("../resources/test_image.binary.jpg", binaryImg);
-    imwrite("../resources/test_image.edge.jpg", edgeImg);
-    imwrite("../resources/test_image.morph.jpg", morphImg);
-    imwrite("../resources/test_image.redparts.jpg", redParts);
-    imwrite("../resources/test_image.canvas.jpg", canvasImg);
-    imwrite("../resources/test_image.rotated.jpg", rotatedImg);
-    imwrite("../resources/test_image.cropped.jpg", croppedImg);
-    imwrite("../resources/test_image.lightparts.jpg", lightParts);
-    imwrite("../resources/test_image.lightparts.gray.jpg", lightParts_gray);
-    imwrite("../resources/test_image.lightparts.binary.jpg", lightParts_binary);
-    imwrite("../resources/test_image.lightparts.dilate.jpg", lightParts_dilate);
-    imwrite("../resources/test_image.lightparts.erode.jpg", lightParts_erode);
-    imwrite("../resources/test_image.lightparts.floodfill.jpg", lightParts_floodfill);
+    imwrite("../outputs/test_image.gray.jpg", grayImg);
+    imwrite("../outputs/test_image.hsv.jpg", hsvImg);
+    imwrite("../outputs/test_image.blur.jpg", blurImg);
+    imwrite("../outputs/test_image.gaussian.jpg", guassianImg);
+    imwrite("../outputs/test_image.binary.jpg", binaryImg);
+    imwrite("../outputs/test_image.edge.jpg", edgeImg);
+    imwrite("../outputs/test_image.morph.jpg", morphImg);
+    imwrite("../outputs/test_image.redparts.jpg", redParts);
+    imwrite("../outputs/test_image.canvas.jpg", canvasImg);
+    imwrite("../outputs/test_image.rotated.jpg", rotatedImg);
+    imwrite("../outputs/test_image.cropped.jpg", croppedImg);
+    imwrite("../outputs/test_image.lightparts.jpg", lightParts);
+    imwrite("../outputs/test_image.lightparts.gray.jpg", lightParts_gray);
+    imwrite("../outputs/test_image.lightparts.binary.jpg", lightParts_binary);
+    imwrite("../outputs/test_image.lightparts.dilate.jpg", lightParts_dilate);
+    imwrite("../outputs/test_image.lightparts.erode.jpg", lightParts_erode);
+    imwrite("../outputs/test_image.lightparts.floodfill.jpg", lightParts_floodfill);
     cout<<"Contour Area Sum: "<<sumArea<<endl;
 }
 int main()
@@ -205,6 +205,6 @@ int main()
     // }
     // imshow("Bounding Box", rectImg);
     // waitKey(0);
-    // imwrite("../resources/test_image.result.jpg", rectImg);
+    // imwrite("../outputs/test_image.result.jpg", rectImg);
     return 0;
 }

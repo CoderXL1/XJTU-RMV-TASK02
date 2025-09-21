@@ -70,6 +70,6 @@ int main()
     }
     imshow("Bounding Box", rectImg);
     waitKey(0);
-    imwrite("../resources/test_image_2.result.jpg", rectImg);
+    imwrite("../outputs/test_image_2.result.jpg", rectImg);
     return 0;
 }

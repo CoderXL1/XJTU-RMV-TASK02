@@ -22,11 +22,11 @@
 
 ---------
 ### main.cpp 运行截图
-![main.cpp 运行截图](./main.cpp.runtime.png "main.cpp 运行截图")
+![main.cpp 运行截图](outputs/main.cpp.runtime.png "main.cpp 运行截图")
 
 ### recognition.cpp 运行截图
-![recognition.cpp 运行截图](./recognition.cpp.runtime.png "recognition.cpp 运行截图")
+![recognition.cpp 运行截图](outputs/recognition.cpp.runtime.png "recognition.cpp 运行截图")
 ### recognition.cpp 运行结果
-![recognition.cpp 运行结果](./resources/test_image_2.result.jpg "recognition.cpp 运行结果")
+![recognition.cpp 运行结果](outputs/test_image_2.result.jpg "recognition.cpp 运行结果")
 
-#### 更多图片可见 `resources/`
+#### 更多图片可见 `outputs/`
