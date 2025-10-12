@@ -61,6 +61,11 @@ int main()
             cout<<" ok"<<endl;
             Point2f rect_points[4];
             rect.points(rect_points);
+            for(auto pt:rect_points)
+            {
+                cout<<pt<<" ";
+            }
+            cout<<"\n";
             for ( int j = 0; j < 4; j++ )
             {
                 line( rectImg, rect_points[j], rect_points[(j+1)%4], Scalar(0, 0, 255),4);
